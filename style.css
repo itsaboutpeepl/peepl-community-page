@@ -1,0 +1,70 @@
+html {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.partner-card {
+    background-color: #fff;
+    border: 1px solid #e5e5e5;
+    border-radius: 20px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+    margin: 10px 10px;
+    padding: 20px;
+    position: relative;
+    text-align: left;
+    transition: all 0.3s ease;
+}
+
+.partner-logo {
+    display: block;
+    margin: 0 auto;
+    max-width: 80%;
+    padding: 20px 40px;
+}
+
+.partner-title {
+    font-size: 20px;
+    font-weight: 800;
+    margin-bottom: 10px;
+}
+
+.partner-description {
+    font-size: 14px;
+    line-height: 1.5;
+    /* margin: 0 0 20px; */
+    padding: 0;
+    text-align: left;
+}
+
+.partner-button {
+    background-color: white;
+    /* border: 1px solid #e5e5e5; */
+    border-radius: 10px;
+    color: #000;
+    display: inline-block;
+    font-size: 20px;
+    font-weight: 800;
+    margin: 0;
+    padding: 10px 0px;
+    text-align: center;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    width: 100%;
+}
+
+#vegi-card {
+    background-color: rgb(21,41,33);
+    color: white;	
+}
+
+#vegi-card .partner-button {
+    background-color: rgb(150,194,129);
+}
+
+#shocal-card {
+    background-color: rgb(110,52,143);
+    color: white;
+}
+
+#shocal-card .partner-button {
+    background-color: rgb(245,195,68);
+}
