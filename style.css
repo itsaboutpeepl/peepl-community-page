@@ -69,6 +69,12 @@ html {
 #shocal-card {
     background-color: rgb(110,52,143);
     color: white;
+    border-radius: 20px;
+    margin: 10px;
+}
+
+#shocal-card img {
+    border-radius: 20px;
 }
 
 #shocal-card .partner-button {
